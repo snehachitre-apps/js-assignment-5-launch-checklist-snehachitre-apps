@@ -26,6 +26,7 @@ window.addEventListener("load", function() {
    });
    
    let form = document.querySelector("form");
+   
    form.addEventListener("submit", function(event) {
        
 
@@ -35,6 +36,7 @@ window.addEventListener("load", function() {
       let fuelLevel = document.querySelector("input[name=fuelLevel]").value;
       let cargoLevel = document.querySelector("input[name=cargoMass]").value;
       let list= document.getElementById("faultyItems");
+
       formSubmission(document, list, pilot, copilot, fuelLevel, cargoLevel);
      
     
